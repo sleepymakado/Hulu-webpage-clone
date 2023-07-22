@@ -30,6 +30,28 @@ ul{
 img {
     width: 100%;
 }
+
+.btn {
+    display: inline-block;
+    background: #ffff;
+    color: #333;
+    min-width: 135px;
+    padding:20px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-cta:hover{
+    opacity: 0.8;
+}
+
+/*Header */
 .header {
     height: 530px;
     background: url(/img/header.jpg) no-repeat center center / cover;
@@ -63,3 +85,13 @@ img {
     align-items: center;
     margin-top: 30px;
 }
+
+.header .header-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .header-text-2 {
+    font-size: 18px;
+    margin: 25px 0;
+}
+
