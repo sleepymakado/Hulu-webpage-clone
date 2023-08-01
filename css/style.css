@@ -173,9 +173,16 @@ h4 {
 
   .sub-header {
     grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px;
   }
 
   .sub-header img {
     width: 250px;
     margin: auto;
+  }
+
+  .sub-header > div:last-of-type {
+    justify-self: center;
+    align-self: center;
   }
