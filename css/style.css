@@ -174,9 +174,15 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 90px 40px;
 }
 .categories .covers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
 
 }
 
