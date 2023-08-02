@@ -110,6 +110,8 @@ h4 {
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
+    z-index: 2;
+    position: relative;
 }
 
 .header nav .login-btn {
@@ -243,11 +245,17 @@ h4 {
 
 
 /* Media Queries */
-@media (max-width: 1100px) {
+@media (max-width:1100px){
     .categories .covers {
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
-  }
+}
+
+@media (max-width: 768px){
+    .header .logo {
+        width: 200px;
+    }
+}
   
   
     .header .header-content {
@@ -271,4 +279,13 @@ h4 {
   .sub-header > div:last-of-type {
     justify-self: center;
     align-self: center;
+  }
+
+  .text-xl{
+    line-height: 1.3;
+    font-size: 40px;
+  }
+
+  .categories .cover{
+    grid-template-columns: 1fr;
   }
