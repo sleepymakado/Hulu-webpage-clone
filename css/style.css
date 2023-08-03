@@ -347,7 +347,7 @@ h4 {
 
   /* Modal */
   .modal {
-   /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -494,5 +494,9 @@ h4 {
   
     .modal .modal-box {
       width: 350px;
+    }
+
+    .modal .modal-box {
+        width: 350px;
     }
   }
